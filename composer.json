@@ -1,0 +1,26 @@
+{
+  "name": "zoibana/xmlparser",
+  "description": "Simplexml wrapper",
+  "version": "1.0.0",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "support": {
+    "email": "zoibana@gmail.com"
+  },
+  "authors": [
+    {
+      "name": "Zoibana",
+      "email": "zoibana@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7",
+    "ext-simplexml": "^7.4",
+    "ext-libxml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "zoibana\\Xml\\": "src/"
+    }
+  }
+}
